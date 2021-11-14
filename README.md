@@ -16,11 +16,6 @@ The video consists of the following parts:
 
 So, hot-reloading in a Common Lisp REPL is not totally different to other languages, but it is still a bit easier to do and has less limitations, like being able to change a running function.
 
-    The Emacs keybinding to compile the Lisp file and send it to Sly is `C-c C-k`,
-    to compile the current function use `C-c C-c` in the lisp buffer.
-    You do not need to call `M-x sly-compile-...`, this is for better visibility
-    in the video
-
 ## The Golden Ratio
 
 Lisbonacci is a program to calculate a number, so that this number and the given value form a golden ratio.
