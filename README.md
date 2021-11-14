@@ -18,7 +18,7 @@ So, hot-reloading in a Common Lisp REPL is not totally different to other langua
 
 ## The Golden Ratio
 
-Lisbonacci is a program to calculate a number, so that this number and the given value form a golden ratio.
+Lisbonacci is a program to calculate the golden ratio to a given number.
 
 In mathematical terms:
 
@@ -29,7 +29,7 @@ To calculate the golden ratio, Lisbonacci uses the fibonacci sequence - hence th
 
 In mathematical terms:
 
-- let `[f0, f1, f2, ... , fn, fn+1, ... ]` be the Fibonacci sequence, then the quotient `fn/fn+1 ~=` Golden ratio. See function `golden-ratio` in [./src/main.lisp](https://github.com/Release-Candidate/Lisbonacci/blob/main/src/main.lisp):
+- let `[f0, f1, f2, ... , fn, fn+1, ... ]` be the Fibonacci sequence, then the quotient `fn/fn+1 ~=` golden ratio. See function `golden-ratio` in [./src/main.lisp](https://github.com/Release-Candidate/Lisbonacci/blob/main/src/main.lisp):
 
     ```lisp
     (defun golden-ratio (number)
