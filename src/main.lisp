@@ -20,19 +20,19 @@
     (let
         ((number (user-input-int "Golden ratio calculator. Calculates the golden ratio to the given number.
 Input number")))
-      (format *query-io* "Golden ratio ~a : ~a ~%" number (golden-ratio number)))
-    (if (yes-or-no-p "Exit program?") (return))))
+      (format *query-io* "Golden ratio ~a : ~a ~%" number (golden-ratio number))
+      (if (yes-or-no-p "Exit program?") (return)))))
 
 ;; ** golden-ratio
 (defun golden-ratio (number)
   "Calculate the golden ratio to the given number `number`.
-Return the number which "
-  (* number (/ (fibonacci 22) (fibonacci 21))))
+Return the number which forms a golden ratio with the given number `number`."
+  (* number (/ (fibonacci 32) (fibonacci 31))))
 
 ;; ** fibonacci
 (defun fibonacci (n)
-  "Calculate the nth fibonacci number.
-Return the nth fibonacci number"
+  "Calculate the `n`th fibonacci number.
+Return the `n`th fibonacci number"
   (if (eql n 0)
       0
       (if (eql n 1)
