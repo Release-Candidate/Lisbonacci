@@ -1,3 +1,6 @@
+> [!WARNING]
+> This repository has been moved to [Codeberg: Lisbonacci](https://codeberg.org/Release-Candidate/Lisbonacci)
+
 # Lisbonacci
 
 A small Common Lisp project to show interactive programming possibilities using Emacs and Sly (a Slime fork). Because of an article at Hacker News [Why Lisp? ](https://news.ycombinator.com/item?id=29202021) and to give a short answer to the question 'what is so special about the common Lisp REPL?'.
